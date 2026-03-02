@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-dark {
+        background-color: #030712;
+    }
+
+    .bg-card {
+        background-color: #111827;
+    }
+
+    .bg-primary {
+        background-color: #6366f1;
+    }
+
+    .bg-secondary {
+        background-color: #06b6d4;
+    }
+
+    .bg-accent {
+        background-color: #f43f5e;
+    }
+
+    .border-dark {
+        border-color: #030712;
+    }
+}
+
+@layer base {
+    html {
+        @apply font-sans;
+    }
+
+    body {
+        @apply bg-dark text-slate-300 font-sans antialiased;
+        scroll-behavior: smooth;    
+    }
+
+    ::selection {
+        background-color: rgba(99, 102, 241, 0.3);
+        color: white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-display text-white font-bold tracking-tight;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-dark;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-card border-2 border-dark rounded-full hover:bg-slate-700 transition-colors;
+    }
+}
+
+@layer components {
+    .glass {
+        @apply bg-card/70 backdrop-blur-xl border border-white/5;
+    }
+
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+    }
+
+    .btn-primary {
+        @apply px-6 py-3 rounded-xl bg-primary hover:bg-primary-dark text-white font-semibold transition-all duration-300 hover:scale-[1.02] shadow-lg shadow-primary/20 active:scale-[0.98];
+    }
+
+    .btn-outline {
+        @apply px-6 py-3 rounded-xl border border-white/10 hover:bg-white/5 text-white font-semibold transition-all duration-300 hover:scale-[1.02] active:scale-[0.98];
+    }
+
+    .section-container {
+        @apply max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-24;
+    }
+}
