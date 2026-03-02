@@ -33,11 +33,11 @@
 @layer base {
     html {
         @apply font-sans;
+        scroll-behavior: smooth;
     }
 
     body {
         @apply bg-dark text-slate-300 font-sans antialiased;
-        scroll-behavior: smooth;    
     }
 
     ::selection {
@@ -70,7 +70,7 @@
 
 @layer components {
     .glass {
-        @apply bg-card/70 backdrop-blur-xl border border-white/5;
+        @apply bg-[#030712]/80 backdrop-blur-2xl border border-white/10;
     }
 
     .text-gradient {

@@ -24,7 +24,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-xs text-slate-600 font-mono">
-                        Designed & Built By M-M.
+                        Designed & Built By M_M.
                     </div>
                 </div>
             </div>

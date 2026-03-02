@@ -30,7 +30,7 @@ export default function Contact() {
 
                         <a
                             href={`mailto:${portfolioData.email}`}
-                            className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white text-black font-black hover:bg-primary hover:text-white transition-all duration-300 hover:scale-[1.05] group"
+                            className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white text-black font-black hover:bg-primary hover:text-white transition-all duration-300 hover:scale-[1.05] group break-all"
                         >
                             <Mail size={20} />
                             {portfolioData.email}

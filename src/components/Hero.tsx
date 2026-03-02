@@ -4,7 +4,7 @@ import { portfolioData } from '../data/portfolio';
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <section id="about" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
             {/* Background Orbs */}
             <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[128px] -z-10" />
             <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-[128px] -z-10" />

@@ -7,8 +7,8 @@ export default function Experience() {
         <section id="experience" className="bg-card/30">
             <div className="section-container">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                    <div className="lg:col-span-1">
-                        <h2 className="text-3xl md:text-5xl mb-6 italic">Career <br />Path.</h2>
+                    <div className="lg:col-span-1  mt-20">
+                        <h2 className="text-3xl md:text-5xl mb-6 italic">Career Path.</h2>
                         <p className="text-slate-400 leading-relaxed mb-8">
                             My professional journey across different teams and technologies, focused on building impactful web solutions.
                         </p>
