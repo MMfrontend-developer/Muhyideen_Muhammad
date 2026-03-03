@@ -30,11 +30,13 @@ export default function Contact() {
 
                         <a
                             href={`mailto:${portfolioData.email}`}
-                            className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-white text-black font-black hover:bg-primary hover:text-white transition-all duration-300 hover:scale-[1.05] group break-all"
+                            className="inline-flex items-center gap-2 md:gap-3 px-4 md:px-8 py-4 rounded-xl md:2xl bg-white text-black font-black hover:bg-primary hover:text-white transition-all duration-300 hover:scale-[1.05] group max-w-full overflow-hidden"
                         >
-                            <Mail size={20} />
-                            {portfolioData.email}
-                            <ArrowUpRight size={20} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                            <Mail size={20} className="shrink-0" />
+                            <span className="text-sm md:text-base truncate md:overflow-visible whitespace-nowrap">
+                                {portfolioData.email}
+                            </span>
+                            <ArrowUpRight size={20} className="shrink-0 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                         </a>
 
                         <div className="mt-16 pt-16 border-t border-white/5">
