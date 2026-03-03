@@ -15,7 +15,7 @@ export default function Experience() {
                         <div className="p-6 rounded-3xl bg-primary/5 border border-primary/10">
                             <Briefcase className="text-primary mb-4" size={32} />
                             <h4 className="text-white font-bold mb-2">Frontend Specialist</h4>
-                            <p className="text-sm text-slate-400">Successfully delivering robust solutions for over 2 years.</p>
+                            <p className="text-sm text-slate-400">Successfully delivering robust solutions for over 3 years.</p>
                         </div>
                     </div>
 
