@@ -84,6 +84,7 @@ export const portfolioData = {
             solution: "Developed scalable, TypeScript-based Next.js application with dynamic routing, reusable components, and smart product filtering.",
             tech: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
             liveLink: "https://shapora-store.vercel.app/",
+            githubLink: "https://github.com/MMfrontend-developer/Shapora-Store",
             outcome: "Seamless user experience across devices with optimized performance and modular architecture for future backend integration."
         },
         {
@@ -94,6 +95,7 @@ export const portfolioData = {
             solution: "Built React-based interface with escrow system, testimonial module, and contact system.",
             tech: ["React", "JavaScript", "CSS3"],
             liveLink: "https://bbr-agency.vercel.app/",
+            githubLink: "https://github.com/MMfrontend-developer/BBR_AGENCY",
             outcome: "Fully responsive, modern UI supporting real-world project management simulations."
         },
         {
@@ -104,6 +106,7 @@ export const portfolioData = {
             solution: "Developed modular, theme switcher, reusable UI components with authentication-ready flows.",
             tech: ["React", "JavaScript", "CSS3"],
             liveLink: "https://oxbank-oll1.vercel.app/",
+            githubLink: "https://github.com/MMfrontend-developer/OX-BANK",
             outcome: "Optimized for desktop, tablet, and mobile with emphasis on clarity and accessibility."
         },
         {
@@ -114,6 +117,7 @@ export const portfolioData = {
             solution: "Integrated OpenWeatherMap API with geolocation support, autocomplete search, and responsive UI.",
             tech: ["HTML5", "JavaScript", "CSS3"],
             liveLink: "http://weather-sphere-gilt.vercel.app",
+            githubLink: "https://github.com/MMfrontend-developer/WeatherSphere",
             outcome: "Fast, mobile-friendly, and interactive weather experience with theme switcher and animations"
         },
         {
@@ -124,6 +128,7 @@ export const portfolioData = {
             solution: "A fully responsive clone of the Kolomoni banking dashboard built with HTML5, CSS3, and JavaScript.",
             tech: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://my-project-rouge-eight-17.vercel.app/",
+            githubLink: "https://github.com/MMfrontend-developer/my-project",
             outcome: "Replicating the UI, user flows, and transaction features accurately."
         },
         {
@@ -134,6 +139,7 @@ export const portfolioData = {
             solution: "A fully responsive clone of the scientific calculator with theme switcher and real-time clock, built with HTML5, CSS3, and JavaScript.",
             tech: ["HTML5", "CSS3", "JavaScript"],
             liveLink: "https://my-calculator-theta-murex.vercel.app/",
+            githubLink: "https://github.com/MMfrontend-developer/My-Calculator",
             outcome: "A fully responsive scientific calculator with theme switcher and real-time clock."
         }
     ] as Project[]

@@ -39,7 +39,7 @@ export default function Projects() {
 
                                 <div className="absolute top-6 right-6 flex gap-3 z-10">
                                     {project.githubLink && (
-                                        <a href={project.githubLink} className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-primary transition-colors">
+                                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-primary transition-colors">
                                             <Github size={20} />
                                         </a>
                                     )}
