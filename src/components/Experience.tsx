@@ -31,11 +31,11 @@ export default function Experience() {
                             >
                                 {/* Timeline connector */}
                                 {idx !== portfolioData.experience.length - 1 && (
-                                    <div className="absolute left-0 md:left-4 top-8 bottom-0 w-px bg-white/10 group-hover:bg-primary/20 transition-colors" />
+                                    <div className="absolute left-0 md:left-[21px] top-8 bottom-0 w-px bg-white/10 group-hover:bg-primary/20 transition-colors" />
                                 )}
 
                                 {/* Status Dot */}
-                                <div className="absolute left-[-5px] md:left-[11px] top-1.5 w-[11px] h-[11px] rounded-full bg-card border-2 border-white/20 group-hover:border-primary transition-colors z-10" />
+                                <div className="absolute left-[-5px] md:left-[16px] top-1.5 w-[11px] h-[11px] rounded-full bg-card border-2 border-white/20 group-hover:border-primary transition-colors z-10" />
 
                                 <div className="glass p-8 rounded-[2rem] hover:border-white/10 transition-colors">
                                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">

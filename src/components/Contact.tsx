@@ -5,8 +5,10 @@ import { portfolioData } from '../data/portfolio';
 export default function Contact() {
     return (
         <section id="contact" className="relative overflow-hidden">
-            {/* Glow background */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] -z-10" />
+            {/* Glow background - constrained to content area */}
+            <div className="absolute inset-0 max-w-7xl mx-auto pointer-events-none">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-2xl w-full aspect-square bg-primary/10 rounded-full blur-[120px] -z-10" />
+            </div>
 
             <div className="section-container">
                 <div className="glass rounded-[3rem] p-8 md:p-16 lg:p-20 text-center relative overflow-hidden">

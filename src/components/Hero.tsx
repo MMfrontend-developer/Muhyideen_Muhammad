@@ -5,9 +5,11 @@ import { portfolioData } from '../data/portfolio';
 export default function Hero() {
     return (
         <section id="about" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-            {/* Background Orbs */}
-            <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[128px] -z-10" />
-            <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-[128px] -z-10" />
+            {/* Background Orbs - constrained to relative center */}
+            <div className="absolute inset-0 max-w-7xl mx-auto pointer-events-none">
+                <div className="absolute top-1/4 -left-20 w-96 h-96 bg-primary/20 rounded-full blur-[128px] -z-10" />
+                <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-secondary/10 rounded-full blur-[128px] -z-10" />
+            </div>
 
             <div className="section-container relative z-10 text-center">
                 <motion.div
@@ -66,7 +68,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="mt-20 hidden md:block"
                 >
-                    <div className="glass rounded-t-2xl p-4 flex items-center gap-2 border-b-0 w-[600px] mx-auto">
+                    <div className="glass rounded-t-2xl p-4 flex items-center gap-2 border-b-0 max-w-2xl w-full mx-auto">
                         <div className="flex gap-1.5">
                             <div className="w-3 h-3 rounded-full bg-red-500/40" />
                             <div className="w-3 h-3 rounded-full bg-amber-500/40" />
@@ -77,7 +79,7 @@ export default function Hero() {
                             portfolio.tsx — Edited
                         </div>
                     </div>
-                    <div className="glass rounded-b-2xl p-6 border-t-0 w-[600px] mx-auto text-left font-mono text-sm overflow-hidden">
+                    <div className="glass rounded-b-2xl p-6 border-t-0 max-w-2xl w-full mx-auto text-left font-mono text-sm overflow-hidden">
                         <p className="text-pink-400"><span className="text-blue-400">const</span> skills <span className="text-white">=</span> [</p>
                         <p className="ml-4 text-emerald-400">'ReactNative', 'Next.js', 'React.js', 'TypeScript',</p>
                         <p className="ml-4 text-emerald-400">'Tailwind CSS', 'Responsive UI'</p>
