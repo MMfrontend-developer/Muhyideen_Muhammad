@@ -44,7 +44,7 @@ export const portfolioData = {
         },
         {
             title: "Tools & Platforms",
-            skills: ["Git", "GitHub", "VS Code", "API Integration", "SSR (Next.js)"]
+            skills: ["Git", "GitHub", "VS Code", "Figma", "Framer Motion",  "API Integration", "SSR (Next.js)"]
         },
         {
             title: "Soft Skills",
@@ -54,7 +54,7 @@ export const portfolioData = {
     experience: [
         {
             company: "Gigs-tech Solutions and Consults",
-            role: "Frontend Developer (Remote)",
+        role: "UI/UX and Frontend Developer",
             period: "Sept 2024 – July 2025",
             location: "Remote",
             highlights: [
