@@ -4,31 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .bg-dark {
-        background-color: #030712;
-    }
-
-    .bg-card {
-        background-color: #111827;
-    }
-
-    .bg-primary {
-        background-color: #6366f1;
-    }
-
-    .bg-secondary {
-        background-color: #06b6d4;
-    }
-
-    .bg-accent {
-        background-color: #f43f5e;
-    }
-
-    .border-dark {
-        border-color: #030712;
-    }
-}
 
 @layer base {
     html {
