@@ -125,7 +125,7 @@ export const portfolioData = {
         "Fully responsive, modern UI supporting real-world project management simulations.",
     },
     {
-    title: "Royal_Haven_Hotel_Suites",
+    title: "Royal_Haven_Hotel and Suites",
       description: "Luxury Boutique Hotel Website",
       image: "/royal-heaven.png",
       problem:
