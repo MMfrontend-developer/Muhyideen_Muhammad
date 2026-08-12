@@ -8,8 +8,13 @@ export default function Footer() {
             <div className="section-container">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center font-bold text-white text-sm">
+                        <div className="w-10 h-8 rounded-lg bg-white/5 gap-1 border border-white/10 flex items-center justify-center font-bold text-white text-sm">
+                        <div>
                             M
+                        </div>
+                        <div>
+                            M
+                        </div>
                         </div>
                         <p className="text-sm text-slate-500">
                             © {currentYear} {portfolioData.name}. All rights reserved.
@@ -24,7 +29,7 @@ export default function Footer() {
                     </div>
 
                     <div className="text-xs text-slate-600 font-mono">
-                        Designed & Built By M_M.
+                        Designed & Built By M-M.
                     </div>
                 </div>
             </div>

@@ -29,12 +29,14 @@ export default function Navbar() {
         >
             <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-between">
                 <a href="#" className="group flex items-center gap-2">
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center font-bold text-white text-xl group-hover:rotate-12 transition-transform duration-300">
-                        M
+                    <div className="w-12 h-9 rounded-xl bg-gradient-to-br gap-0.5 from-primary to-secondary flex items-center justify-center font-bold text-white text-xl group-hover:rotate-12 transition-transform duration-300">
+                    <div >
+                        M 
                     </div>
-                    <span className="font-display font-bold text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
-                        Muhyideen.
-                    </span>
+                    <div>
+                        M 
+                    </div>
+                    </div>
                 </a>
 
                 {/* Desktop Nav */}
