@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="section-container">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="flex items-center gap-3">
-                        <div className="w-10 h-8 rounded-lg bg-white/5 gap-1 border border-white/10 flex items-center justify-center font-bold text-white text-sm">
+                        <div className="w-10 h-8 rounded-lg p-2 bg-white/5 gap-1 border border-white/10 flex items-center justify-center font-bold text-white text-sm">
                         <div>
                             M
                         </div>
